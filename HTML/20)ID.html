@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML id Attribute</title>
+</head>
+<body>
+    <p>
+        The HTML id attribute is used to specify a unique id for an HTML element.
+
+            You cannot have more than one element with the same id in an HTML document.
+
+            Using The id Attribute
+            The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.
+
+            The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.
+
+            The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
+
+            In the following example we have an <h1> element that points to the id name "myHeader". This <h1> element will be styled according to the #myHeader style definition in the head section:
+
+            Example
+            <!DOCTYPE html>
+            <html>
+            <head>
+            <style>
+            #myHeader {
+            background-color: lightblue;
+            color: black;
+            padding: 40px;
+            text-align: center;
+            } 
+            </style>
+            </head>
+            <body>
+
+            <h1 id="myHeader">My Header</h1>
+
+            </body>
+            </html>
+    </p>
+    <p>
+        Note: The id name is case sensitive!
+
+        Note: The id name must contain at least one character, cannot start with a number, and must not contain whitespaces (spaces, tabs, etc.).
+    </p>
+    <p>
+        Difference Between Class and ID
+           A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page:
+    </p>
+    <p>
+        HTML Bookmarks with ID and Links
+            HTML bookmarks are used to allow readers to jump to specific parts of a webpage.
+
+            Bookmarks can be useful if your page is very long.
+
+            To use a bookmark, you must first create it, and then add a link to it.
+
+            Then, when the link is clicked, the page will scroll to the location with the bookmark.
+
+            Example
+            First, create a bookmark with the id attribute:
+    </p>
+    <p>
+        <!DOCTYPE html>
+            <html>
+            <body>
+
+            <p><a href="#C4">Jump to Chapter 4</a></p>
+            <p><a href="#C10">Jump to Chapter 10</a></p>
+
+            <h2>Chapter 1</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 2</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 3</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2 id="C4">Chapter 4</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 5</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 6</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 7</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 8</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 9</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2 id="C10">Chapter 10</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 11</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 12</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 13</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 14</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 15</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 16</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 17</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 18</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 19</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 20</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 21</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 22</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            <h2>Chapter 23</h2>
+            <p>This chapter explains ba bla bla</p>
+
+            </body>
+            </html>
+    </p>
+    <p>
+        The id attribute is used to specify a unique id for an HTML element
+        The value of the id attribute must be unique within the HTML document
+        The id attribute is used by CSS and JavaScript to style/select a specific element
+        The value of the id attribute is case sensitive
+        The id attribute is also used to create HTML bookmarks
+    </p>
+</body>
+</html>
