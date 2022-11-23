@@ -62,10 +62,10 @@
             A form with input fields for text:
 
             <form>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
             </form>
     </p>
     <p>
@@ -208,20 +208,6 @@
             This example uses the POST method when submitting the form data:
 
             <form action="/action_page.php" method="post">
-    </p>
-    <p>
-        Notes on GET:
-
-            Appends the form data to the URL, in name/value pairs
-            NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
-            The length of a URL is limited (2048 characters)
-            Useful for form submissions where a user wants to bookmark the result
-            GET is good for non-secure data, like query strings in Google
-            Notes on POST:
-
-            Appends the form data inside the body of the HTTP request (the submitted form data is not shown in the URL)
-            POST has no size limitations, and can be used to send large amounts of data.
-            Form submissions with POST cannot be bookmarked
     </p>
 </body>
 </html>
